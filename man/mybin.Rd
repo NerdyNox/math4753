@@ -4,7 +4,7 @@
 \alias{mybin}
 \title{Bin Function}
 \usage{
-mybin(y, r, p)
+mybin(iter = 100, n = 10, p = 0.5)
 }
 \arguments{
 \item{p}{}
