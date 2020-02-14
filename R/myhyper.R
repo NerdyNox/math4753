@@ -1,4 +1,4 @@
-#' Title
+#' Hyper Function
 #'
 #' @param iter
 #' @param N

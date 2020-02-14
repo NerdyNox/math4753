@@ -1,4 +1,4 @@
-#' Title
+#' Bin Function
 #'
 #' @param y
 #' @param r
