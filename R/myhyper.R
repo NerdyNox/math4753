@@ -1,3 +1,14 @@
+#' Title
+#'
+#' @param iter
+#' @param N
+#' @param r
+#' @param n
+#'
+#' @return
+#' @export
+#'
+#' @examples
 myhyper=function(iter=100,N=20,r=12,n=5){
   # make a matrix to hold the samples
   #initially filled with NA's
