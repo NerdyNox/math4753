@@ -31,6 +31,6 @@ mychisim2<-function(lablex, labley, n1=10,n2=14,sigma1=3,sigma2=3,mean1=5,mean2=
   lines(density(w),col="Blue",lwd=3) # add a density plot
   curve(dchisq(x,n1+n2-2),add=TRUE,col="Red",lty=2,lwd=3) # add a theoretical curve
   title=expression(chi^2==frac((n[1]+n[2]-2)*S[p]^2,sigma^2)) #mathematical annotation -see ?plotmath
-  legend(x = labelx, y = labley, c("Simulated","Theoretical"),col=c("Blue","Red"),lwd=4,lty=1:2,bty="n",title=title) # Legend #
+  legend(x = lablex, y = labley, c("Simulated","Theoretical"),col=c("Blue","Red"),lwd=4,lty=1:2,bty="n",title=title) # Legend #
   return(list(w=w,summary=summary(w),sd=sd(w),fun="Chi-sq")) # some output to use if needed
 }
